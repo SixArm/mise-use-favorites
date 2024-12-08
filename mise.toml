@@ -1,0 +1,12 @@
+[tools]
+boundary = "latest"
+consul = "latest"
+elixir = "latest"
+erlang = "latest"
+go = "latest"
+nomad = "latest"
+opentofu = "latest"
+packer = "latest"
+terraform = "latest"
+vault = "latest"
+waypoint = "latest"

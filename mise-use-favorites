@@ -1,0 +1,74 @@
+#!/bin/sh
+
+##
+# mise use favorites
+#
+# Use our favorite mise-en-scene tools.
+#
+#
+# ## Help
+#
+# List the plugins that are added:
+#
+#     mise plugin list
+#
+# List what's installed:
+#
+#     mise list
+#
+# List the current installed versions:
+#
+#     mise current
+#
+#
+# ## Set versions
+#
+# Set the specific version you want to use via one of:
+#
+#     mise global <name> <version> [<version>...]
+#     mise shell <name> <version> [<version>...]
+#     mise local <name> <version> [<version>...]
+#
+# Settings:
+#
+#   * `global`: write the version to $HOME/.tool-versions.
+#
+#   * `shell`: set the version to an environment variable named
+#     mise_${LANG}_VERSION, for the current shell session only.
+#
+#   * `local`: writes the version to $PWD/.tool-versions, 
+#     creating it if needed.
+#
+# To use the system version:
+#
+#     mise local <name> system
+#
+##
+
+## Programming languages
+mise use erlang
+mise use elixir
+mise use golang
+mise use java
+mise use julia
+mise use kotlin
+mise use nodejs
+mise use python
+mise use ruby
+mise use r
+mise use rust
+
+## Tools
+mise use awscli
+mise use bundler
+mise use opentofu
+mise use yarn
+
+## Hashicorp tools
+mise use boundary
+mise use consul
+mise use nomad
+mise use packer
+mise use terraform
+mise use vault
+mise use waypoint
